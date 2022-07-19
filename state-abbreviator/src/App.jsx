@@ -12,7 +12,7 @@ function App() {
       </div>
       <div id="dropdown-btn" className="dropdown">
         <button className="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-          Dropdown button
+          Select a State
         </button>
         <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton1">
           <ListStates />
