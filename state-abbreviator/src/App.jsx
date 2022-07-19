@@ -3,8 +3,6 @@ import './App.css'
 import ListStates from './components/ListStates'
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <div className='container'>
       <div className="row justify-content-center">

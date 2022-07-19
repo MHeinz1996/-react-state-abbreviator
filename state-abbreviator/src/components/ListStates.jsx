@@ -5,7 +5,9 @@ function ListStates() {
     let states = []
     if(states.length < 1) {
         for (let i=0; i<stateData.default.length;i++) {
-            // console.log(stateData.default[i].name)
+            // push a dropdown item to the states array, with an onClick event
+            // using an anonymous function as a wrapper function so that I can
+            // pass a parameter to the ListAbbr function
             states.push(<li key={i}><a className='dropdown-item' href='#' onClick={() => {
                 ListAbbr(i)
             }}>{stateData.default[i].name}</a></li>)
